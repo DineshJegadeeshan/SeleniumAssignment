@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTestSuite" duration-ms="5131" started-at="2022-05-29T20:47:56Z" finished-at="2022-05-29T20:48:01Z">
+    <groups>
+    </groups>
+    <test name="functionality-test" duration-ms="5131" started-at="2022-05-29T20:47:56Z" finished-at="2022-05-29T20:48:01Z">
+      <class name="com.one.AddProductCheckOut">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.AddProductCheckOut@87f383f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2022-05-29T22:48:01Z" finished-at="2022-05-29T22:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.AddProductCheckOut@87f383f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2" started-at="2022-05-29T22:48:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2022-05-29T22:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String)[pri:0, instance:com.one.AddProductCheckOut@87f383f]" name="beforeTestMethod" is-config="true" duration-ms="301" started-at="2022-05-29T22:48:01Z" finished-at="2022-05-29T22:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.AddProductCheckOut@87f383f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2022-05-29T22:48:01Z" finished-at="2022-05-29T22:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.AddProductCheckOut.verifyAddCart_cHeckOut()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyAddCart_cHeckOut()[pri:0, instance:com.one.AddProductCheckOut@87f383f]" name="verifyAddCart_cHeckOut" duration-ms="534" started-at="2022-05-29T22:48:01Z" finished-at="2022-05-29T22:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCart_cHeckOut -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.AddProductCheckOut@87f383f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2022-05-29T22:48:01Z" finished-at="2022-05-29T22:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.AddProductCheckOut.verifyAddCart_cHeckOut()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.AddProductCheckOut@87f383f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2022-05-29T22:48:01Z" finished-at="2022-05-29T22:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.AddProductCheckOut -->
+      <class name="com.one.MainPageTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.MainPageTest@6121c9d6]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="15" started-at="2022-05-29T22:47:56Z" finished-at="2022-05-29T22:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.MainPageTest@6121c9d6]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3193" started-at="2022-05-29T22:47:56Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2022-05-29T22:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String)[pri:0, instance:com.one.MainPageTest@6121c9d6]" name="beforeTestMethod" is-config="true" duration-ms="753" started-at="2022-05-29T22:47:59Z" finished-at="2022-05-29T22:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.MainPageTest@6121c9d6]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2022-05-29T22:48:00Z" finished-at="2022-05-29T22:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.MainPageTest.verifyProducts_sortByPrice()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyProducts_sortByPrice()[pri:0, instance:com.one.MainPageTest@6121c9d6]" name="verifyProducts_sortByPrice" duration-ms="324" started-at="2022-05-29T22:48:00Z" finished-at="2022-05-29T22:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProducts_sortByPrice -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.MainPageTest@6121c9d6]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2022-05-29T22:48:01Z" finished-at="2022-05-29T22:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.MainPageTest.verifyProducts_sortByPrice()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.MainPageTest@6121c9d6]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2022-05-29T22:48:01Z" finished-at="2022-05-29T22:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.MainPageTest -->
+    </test> <!-- functionality-test -->
+  </suite> <!-- SmokeTestSuite -->
+</testng-results>

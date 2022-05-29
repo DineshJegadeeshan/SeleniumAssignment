@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTestSuite]">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="username" value="standard_user"/>
+  <test name="functionality-test">
+    <classes>
+      <class name="com.one.MainPageTest"/>
+      <class name="com.one.AddProductCheckOut"/>
+    </classes>
+  </test> <!-- functionality-test -->
+</suite> <!-- Failed suite [SmokeTestSuite] -->

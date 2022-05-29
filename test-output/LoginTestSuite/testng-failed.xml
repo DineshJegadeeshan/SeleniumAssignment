@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginTestSuite]">
+  <parameter name="password" value="secret-sauce"/>
+  <parameter name="message" value="Username is required"/>
+  <parameter name="username" value=""/>
+  <test name="LoginPage">
+    <groups>
+      <run>
+        <include name="page_elements"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.one.LoginTest"/>
+    </classes>
+  </test> <!-- LoginPage -->
+  <test name="LoginSmokeTest1">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="standard_user"/>
+    <groups>
+      <run>
+        <include name="valid"/>
+        <include name="logout"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.one.LoginTest"/>
+    </classes>
+  </test> <!-- LoginSmokeTest1 -->
+  <test name="LoginSmokeTest2">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="problem_user"/>
+    <groups>
+      <run>
+        <include name="valid"/>
+        <include name="logout"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.one.LoginTest"/>
+    </classes>
+  </test> <!-- LoginSmokeTest2 -->
+  <test name="LoginSmokeTestPerformanceIssues">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="performance_glitch_user"/>
+    <groups>
+      <run>
+        <include name="valid"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.one.LoginTest"/>
+    </classes>
+  </test> <!-- LoginSmokeTestPerformanceIssues -->
+  <test name="LoginSmokeTestLockedUser">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="message" value="Sorry, this user has been locked out."/>
+    <parameter name="username" value="locked_out_user"/>
+    <groups>
+      <run>
+        <include name="lockedout"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.one.LoginTest"/>
+    </classes>
+  </test> <!-- LoginSmokeTestLockedUser -->
+  <test name="LoginSmokeTestWrongPassword">
+    <parameter name="password" value="secret-sauce"/>
+    <parameter name="message" value="Username and password do not match any user in this service"/>
+    <parameter name="username" value="standard_user"/>
+    <groups>
+      <run>
+        <include name="invalid"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.one.LoginTest"/>
+    </classes>
+  </test> <!-- LoginSmokeTestWrongPassword -->
+  <test name="LoginSmokeTestWithoutPassword">
+    <parameter name="password" value=""/>
+    <parameter name="message" value="Password is required"/>
+    <parameter name="username" value="standard_user"/>
+    <groups>
+      <run>
+        <include name="missingPassword"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.one.LoginTest"/>
+    </classes>
+  </test> <!-- LoginSmokeTestWithoutPassword -->
+  <test name="LoginSmokeTestWithoutUserName">
+    <parameter name="password" value="secret-sauce"/>
+    <parameter name="message" value="Username is required"/>
+    <parameter name="username" value=""/>
+    <groups>
+      <run>
+        <include name="missingUserName"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.one.LoginTest"/>
+    </classes>
+  </test> <!-- LoginSmokeTestWithoutUserName -->
+</suite> <!-- Failed suite [LoginTestSuite] -->
